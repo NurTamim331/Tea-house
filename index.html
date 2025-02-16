@@ -15,15 +15,15 @@
     <script src="https://kit.fontawesome.com/ef668a8c20.js" crossorigin="anonymous"></script>
     <script>
         tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
             }
-          }
         }
-      </script>
+    </script>
 
     <style>
         .manrope-font {
@@ -36,7 +36,31 @@
 </head>
 
 <body class="manrope-font">
-    <h1>My Tea Stall</h1>
+    <main class="max-w-screen-xl mx-auto px-26 lg:px-28 ">
+        <!-- header section -->
+         <header class="flex flex-row pt-10 mb-20 ">
+            <!-- text container  -->
+            <div class="flex flex-col w-1/2 items-start justify-center gap-7">
+                <h1 class="font-bold text-5xl md:text-7xl ">Its Goood <br>Tea Time at the <br>Tea House</h1>
+                <p class="text-gray-500 ">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="text-white p-3 rounded-lg bg-gradient-to-r from-[#FF0000] to-[#FF8938]">Explore more <i class="fa-solid fa-location-arrow text-white "></i></button>
+            </div>
+            <!-- image container  -->
+             <div>
+                <img src="images/banner.png" alt="Two glasses. One with orange tea and other with green tea" class="w-fulll">
+                <!-- card container  -->
+                 <div class="flex  items-center bg-white relative top-[-100px] left-[30px] drop-shadow-md p-3 md:px-10 w-3/5 h-min rounded-md  ">
+                    <i class="fa-solid fa-star h-full text-5xl" style="color: #FFD43B;"></i>
+                    <!-- text container  -->
+                    <div>
+                        <h1>5.00</h1>
+                        <h4 class="text-[#777777]">Trust Pilot Ratings</h4>
+                    </div>
+                 </div>
+             </div>
+         </header>
+
+    </main>
 </body>
 
 </html>
